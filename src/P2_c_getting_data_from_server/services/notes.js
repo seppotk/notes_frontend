@@ -1,5 +1,16 @@
 import axios from "axios";
-const baseUrl = "http://localhost:3001/api/notes";
+
+// for local see package.json 
+//const baseUrl = "http://localhost:3003/notes";
+
+// for server first version
+//const baseUrl = "http://localhost:3001/api/notes";
+
+// for server running fly.io
+const baseUrl = '/api/notes';
+
+
+// const baseUrl = "https://solitary-fog-6639.fly.dev/api/notes";
 
 const getAll = () => {
   const request = axios.get(baseUrl);
