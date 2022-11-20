@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // for local see package.json 
-//const baseUrl = "http://localhost:3003/notes";
+// const baseUrl = "http://localhost:3001/notes";
 
 // for server first version
 //const baseUrl = "http://localhost:3001/api/notes";
